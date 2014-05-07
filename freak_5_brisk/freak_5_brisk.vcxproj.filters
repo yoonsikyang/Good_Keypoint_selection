@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="brisk">
+      <UniqueIdentifier>{cabf280a-23bb-44bf-b59a-d0c30e83c1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AGAST">
+      <UniqueIdentifier>{8dc02c80-f7ea-4acc-8d1f-67b5ddb6eccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freak">
+      <UniqueIdentifier>{d7ae104d-4c86-4b3b-b50b-22a22e3a5233}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="brisk\brisk.cpp">
+      <Filter>brisk</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\agast5_8.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\agast5_8_nms.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\agast7_12d.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\agast7_12d_nms.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\agast7_12s.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\agast7_12s_nms.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\AstDetector.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\nonMaximumSuppression.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\oast9_16.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="agast\oast9_16_nms.cc">
+      <Filter>AGAST</Filter>
+    </ClCompile>
+    <ClCompile Include="freak\freak.cpp">
+      <Filter>freak</Filter>
+    </ClCompile>
+    <ClCompile Include="gcFilterMatches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gcMatches2Points.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gcKeypointsRecover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gcHomography.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brisk\brisk.h">
+      <Filter>brisk</Filter>
+    </ClInclude>
+    <ClInclude Include="agast\agast5_8.h">
+      <Filter>AGAST</Filter>
+    </ClInclude>
+    <ClInclude Include="agast\agast7_12d.h">
+      <Filter>AGAST</Filter>
+    </ClInclude>
+    <ClInclude Include="agast\agast7_12s.h">
+      <Filter>AGAST</Filter>
+    </ClInclude>
+    <ClInclude Include="agast\AstDetector.h">
+      <Filter>AGAST</Filter>
+    </ClInclude>
+    <ClInclude Include="agast\cvWrapper.h">
+      <Filter>AGAST</Filter>
+    </ClInclude>
+    <ClInclude Include="agast\oast9_16.h">
+      <Filter>AGAST</Filter>
+    </ClInclude>
+    <ClInclude Include="parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freak\freak.h">
+      <Filter>freak</Filter>
+    </ClInclude>
+    <ClInclude Include="opencv_files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

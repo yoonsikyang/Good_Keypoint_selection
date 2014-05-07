@@ -1,0 +1,87 @@
+﻿빌드 시작: 2014-04-30 오후 12:53:34
+     1>2 노드의 "D:\과제\[2013] KIST smartbooklet\소스코드\Good Keypoint\Keypoint selection\freak_5_brisk\freak_5_brisk.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\freak_5_brisk.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         f:\Program files\Visual Studio 2010\VC\bin\CL.exe /c /IC:\OpenCV\build\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(49): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(50): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(68): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(69): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(73): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(75): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(75): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(79): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(80): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(84): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(84): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(90): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(90): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(90): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(126): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(127): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(131): warning C4244: '초기화 중' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(133): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(133): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(137): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(138): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(140): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>main.cpp(144): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(144): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(150): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(151): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>main.cpp(224): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>main.cpp(276): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>main.cpp(291): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>main.cpp(341): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>main.cpp(350): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>main.cpp(369): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>main.cpp(371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>main.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>main.cpp(375): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\Program files\Visual Studio 2010\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>main.cpp(233): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+     1>main.cpp(310): warning C4101: 'dst_corners' :참조되지 않은 지역 변수입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         f:\Program files\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\과제\[2013] KIST smartbooklet\소스코드\Good Keypoint\Keypoint selection\Debug\freak_5_brisk.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\OpenCV\build\x86\vc10\lib opencv_flann245d.lib opencv_core245d.lib opencv_imgproc245d.lib opencv_highgui245d.lib opencv_ml245d.lib opencv_video245d.lib opencv_objdetect245d.lib opencv_features2d245d.lib opencv_calib3d245d.lib opencv_legacy245d.lib opencv_contrib245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\freak_5_brisk.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\과제\[2013] KIST smartbooklet\소스코드\Good Keypoint\Keypoint selection\Debug\freak_5_brisk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\과제\[2013] KIST smartbooklet\소스코드\Good Keypoint\Keypoint selection\Debug\freak_5_brisk.lib" /MACHINE:X86 Debug\freak_5_brisk.exe.embed.manifest.res
+         Debug\agast5_8.obj
+         Debug\agast5_8_nms.obj
+         Debug\agast7_12d.obj
+         Debug\agast7_12d_nms.obj
+         Debug\agast7_12s.obj
+         Debug\agast7_12s_nms.obj
+         Debug\AstDetector.obj
+         Debug\nonMaximumSuppression.obj
+         Debug\oast9_16.obj
+         Debug\oast9_16_nms.obj
+         Debug\brisk.obj
+         Debug\freak.obj
+         Debug\gcFilterMatches.obj
+         Debug\gcHomography.obj
+         Debug\gcKeypointsRecover.obj
+         Debug\gcMatches2Points.obj
+         Debug\main.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\freak_5_brisk.exe.embed.manifest" /manifest Debug\freak_5_brisk.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         freak_5_brisk.vcxproj -> D:\과제\[2013] KIST smartbooklet\소스코드\Good Keypoint\Keypoint selection\Debug\freak_5_brisk.exe
+       FinalizeBuildStatus:
+         "Debug\freak_5_brisk.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\freak_5_brisk.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\과제\[2013] KIST smartbooklet\소스코드\Good Keypoint\Keypoint selection\freak_5_brisk\freak_5_brisk.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.69
